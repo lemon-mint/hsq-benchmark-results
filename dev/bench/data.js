@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702952783736,
+  "lastUpdate": 1702967723443,
   "repoUrl": "https://github.com/lemon-mint/hsq",
   "entries": {
     "Go Benchmark": [
@@ -124,6 +124,48 @@ window.BENCHMARK_DATA = {
             "value": 0,
             "unit": "allocs/op",
             "extra": "420063208 times\n4 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ice.lemons.mint@gmail.com",
+            "name": "lemon-mint",
+            "username": "lemon-mint"
+          },
+          "committer": {
+            "email": "ice.lemons.mint@gmail.com",
+            "name": "lemon-mint",
+            "username": "lemon-mint"
+          },
+          "distinct": true,
+          "id": "1591646339767d1cee00227ddb4c3b127d30367e",
+          "message": "Refactor Go benchmark configuration and remove\nunused code\n\nSimplify go test benchmark command, remove unused offheap/ring and mmap\nrelated code files, and their associated test files. This cleanup\nenhances code maintainability and reduces clutter. No issues addressed.",
+          "timestamp": "2023-12-19T15:34:39+09:00",
+          "tree_id": "529f9413b91168eb82e4ce70fbc83dd104ee3fd5",
+          "url": "https://github.com/lemon-mint/hsq/commit/1591646339767d1cee00227ddb4c3b127d30367e"
+        },
+        "date": 1702967722992,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkMPMC - ns/op",
+            "value": 28.77,
+            "unit": "ns/op",
+            "extra": "208729748 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkMPMC - B/op",
+            "value": 0,
+            "unit": "B/op",
+            "extra": "208729748 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkMPMC - allocs/op",
+            "value": 0,
+            "unit": "allocs/op",
+            "extra": "208729748 times\n4 procs"
           }
         ]
       }
