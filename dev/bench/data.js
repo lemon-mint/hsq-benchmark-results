@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1702949134349,
+  "lastUpdate": 1702950399683,
   "repoUrl": "https://github.com/lemon-mint/hsq",
   "entries": {
     "Go Benchmark": [
@@ -42,6 +42,48 @@ window.BENCHMARK_DATA = {
             "value": 0,
             "unit": "allocs/op",
             "extra": "422097289 times\n4 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ice.lemons.mint@gmail.com",
+            "name": "lemon-mint",
+            "username": "lemon-mint"
+          },
+          "committer": {
+            "email": "ice.lemons.mint@gmail.com",
+            "name": "lemon-mint",
+            "username": "lemon-mint"
+          },
+          "distinct": true,
+          "id": "89a422e58d931927050c0c7e6e7fb0d976741523",
+          "message": "Refactor README.md for clarity and structure\n\nReformatted README.md to improve readability and organization. Updated\nthe header and section headings to provide clearer information for\nreaders. No issues fixed.",
+          "timestamp": "2023-12-19T10:46:05+09:00",
+          "tree_id": "c008890cf0e9c3c6fbed381ea894ed597378f37d",
+          "url": "https://github.com/lemon-mint/hsq/commit/89a422e58d931927050c0c7e6e7fb0d976741523"
+        },
+        "date": 1702950399525,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkMPMC - ns/op",
+            "value": 27.85,
+            "unit": "ns/op",
+            "extra": "440524844 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkMPMC - B/op",
+            "value": 0,
+            "unit": "B/op",
+            "extra": "440524844 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkMPMC - allocs/op",
+            "value": 0,
+            "unit": "allocs/op",
+            "extra": "440524844 times\n4 procs"
           }
         ]
       }
