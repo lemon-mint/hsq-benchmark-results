@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1706840642940,
+  "lastUpdate": 1706926953551,
   "repoUrl": "https://github.com/lemon-mint/hsq",
   "entries": {
     "Go Benchmark": [
@@ -3244,6 +3244,82 @@ window.BENCHMARK_DATA = {
             "value": 0,
             "unit": "allocs/op",
             "extra": "218504266 times\n4 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "lemon-mint",
+            "username": "lemon-mint",
+            "email": "ice.lemons.mint@gmail.com"
+          },
+          "committer": {
+            "name": "lemon-mint",
+            "username": "lemon-mint",
+            "email": "ice.lemons.mint@gmail.com"
+          },
+          "id": "e060f1373c6108ab474b70ca70660ac81bb1204f",
+          "message": "Refactor: Update BufferRing benchmark for accuracy",
+          "timestamp": "2023-12-23T07:16:01Z",
+          "url": "https://github.com/lemon-mint/hsq/commit/e060f1373c6108ab474b70ca70660ac81bb1204f"
+        },
+        "date": 1706926953375,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkBufferRing",
+            "value": 2908248,
+            "unit": "ns/op\t369201.49 MB/s\t       1 B/op\t       0 allocs/op",
+            "extra": "2184 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkBufferRing - ns/op",
+            "value": 2908248,
+            "unit": "ns/op",
+            "extra": "2184 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkBufferRing - MB/s",
+            "value": 369201.49,
+            "unit": "MB/s",
+            "extra": "2184 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkBufferRing - B/op",
+            "value": 1,
+            "unit": "B/op",
+            "extra": "2184 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkBufferRing - allocs/op",
+            "value": 0,
+            "unit": "allocs/op",
+            "extra": "2184 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkMPMC",
+            "value": 26.64,
+            "unit": "ns/op\t       0 B/op\t       0 allocs/op",
+            "extra": "226021938 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkMPMC - ns/op",
+            "value": 26.64,
+            "unit": "ns/op",
+            "extra": "226021938 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkMPMC - B/op",
+            "value": 0,
+            "unit": "B/op",
+            "extra": "226021938 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkMPMC - allocs/op",
+            "value": 0,
+            "unit": "allocs/op",
+            "extra": "226021938 times\n4 procs"
           }
         ]
       }
