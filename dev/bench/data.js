@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1781925994531,
+  "lastUpdate": 1782012445405,
   "repoUrl": "https://github.com/lemon-mint/hsq",
   "entries": {
     "Go Benchmark": [
@@ -22474,6 +22474,82 @@ window.BENCHMARK_DATA = {
             "value": 0,
             "unit": "allocs/op",
             "extra": "100000000 times\n4 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "lemon-mint",
+            "username": "lemon-mint",
+            "email": "ice.lemons.mint@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "d6321fa64150d48354e2e70baebd310b3f9c5dc9",
+          "message": "Merge pull request #1 from snowmerak/main\n\nMake context-aware method and example",
+          "timestamp": "2025-03-13T19:48:44Z",
+          "url": "https://github.com/lemon-mint/hsq/commit/d6321fa64150d48354e2e70baebd310b3f9c5dc9"
+        },
+        "date": 1782012444695,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkBufferRing (github.com/lemon-mint/hsq/internal/offheap/bufring)",
+            "value": 2826345,
+            "unit": "ns/op\t379900.36 MB/s\t       1 B/op\t       0 allocs/op",
+            "extra": "2002 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkBufferRing (github.com/lemon-mint/hsq/internal/offheap/bufring) - ns/op",
+            "value": 2826345,
+            "unit": "ns/op",
+            "extra": "2002 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkBufferRing (github.com/lemon-mint/hsq/internal/offheap/bufring) - MB/s",
+            "value": 379900.36,
+            "unit": "MB/s",
+            "extra": "2002 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkBufferRing (github.com/lemon-mint/hsq/internal/offheap/bufring) - B/op",
+            "value": 1,
+            "unit": "B/op",
+            "extra": "2002 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkBufferRing (github.com/lemon-mint/hsq/internal/offheap/bufring) - allocs/op",
+            "value": 0,
+            "unit": "allocs/op",
+            "extra": "2002 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkMPMC (github.com/lemon-mint/hsq/internal/offheap/ring)",
+            "value": 19.94,
+            "unit": "ns/op\t       0 B/op\t       0 allocs/op",
+            "extra": "303746884 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkMPMC (github.com/lemon-mint/hsq/internal/offheap/ring) - ns/op",
+            "value": 19.94,
+            "unit": "ns/op",
+            "extra": "303746884 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkMPMC (github.com/lemon-mint/hsq/internal/offheap/ring) - B/op",
+            "value": 0,
+            "unit": "B/op",
+            "extra": "303746884 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkMPMC (github.com/lemon-mint/hsq/internal/offheap/ring) - allocs/op",
+            "value": 0,
+            "unit": "allocs/op",
+            "extra": "303746884 times\n4 procs"
           }
         ]
       }
